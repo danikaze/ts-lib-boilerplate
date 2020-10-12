@@ -10,11 +10,11 @@ A boilerplate to to create npm/libraries based on TypeScript
 - [Linting](https://palantir.github.io/tslint/)
 - [Prettier](https://prettier.io/)
 - [Git hooks](https://github.com/typicode/husky)
+- Unit testing with [mocha](https://mochajs.org/) and [chai](https://www.chaijs.com/)
 
 ### Planned
 
 - Migrate to [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
-- Unit testing
 
 ## Development
 

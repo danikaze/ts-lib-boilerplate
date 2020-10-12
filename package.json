@@ -7,8 +7,9 @@
     "build": "npm run clean && scripts/build.sh",
     "dev": "tsc --w --sourceMap",
     "clean": "rimraf dist",
-    "test": "npm run lint",
+    "test": "npm run lint && npm run ut",
     "lint": "tslint -p tsconfig.json -c tslint.yaml",
+    "ut": "nyc mocha -r ts-node/register -r tsconfig-paths/register tests/**/*.spec.ts",
     "prettier": "prettier --write 'src/**/*.{ts,tsx}'"
   },
   "husky": {
@@ -37,9 +38,16 @@
   "homepage": "https://github.com/danikaze/ts-lib-boilerplate#readme",
   "devDependencies": {
     "@ef-carbon/tspm": "^2.2.5",
+    "@types/chai": "^4.2.13",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
     "husky": "^4.3.0",
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0",
     "prettier": "^2.1.2",
     "rimraf": "^3.0.2",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0",
     "tslint": "^6.1.3",
     "tslint-consistent-codestyle": "^1.16.0",
     "tslint-eslint-rules": "^5.4.0",
