@@ -8,7 +8,14 @@
     "dev": "tsc --w --sourceMap",
     "clean": "rimraf dist",
     "test": "npm run lint",
-    "lint": "tslint -p tsconfig.json -c tslint.yaml"
+    "lint": "tslint -p tsconfig.json -c tslint.yaml",
+    "prettier": "prettier --write 'src/**/*.{ts,tsx}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier",
+      "pre-push": "npm run test"
+    }
   },
   "repository": {
     "type": "git",
