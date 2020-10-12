@@ -2,6 +2,8 @@
 
 A boilerplate to to create npm/libraries based on TypeScript
 
+[![Build Status](https://travis-ci.org/danikaze/ts-lib-boilerplate.svg?branch=master)](https://travis-ci.org/danikaze/ts-lib-boilerplate)
+
 ## Features
 
 ### Ready
@@ -11,10 +13,15 @@ A boilerplate to to create npm/libraries based on TypeScript
 - [Prettier](https://prettier.io/)
 - [Git hooks](https://github.com/typicode/husky)
 - Unit testing with [mocha](https://mochajs.org/) and [chai](https://www.chaijs.com/)
+- [travis-ci](https://travis-ci.com/) support
 
 ### Planned
 
 - Migrate to [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+
+## Configuration
+
+Just edit [.nvmrc](./.nvmrc) with the version of node you want to run your tests and it will also work for travis-ci.
 
 ## Development
 
