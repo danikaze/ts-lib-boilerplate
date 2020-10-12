@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": ".",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "module": "commonJS",
+    "declaration": false,
+    "pretty": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "lib": ["dom", "es2017"],
+    "paths": {
+      "@src": ["src"],
+      "@src/*": ["src/*"],
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
