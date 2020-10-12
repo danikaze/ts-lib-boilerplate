@@ -30,6 +30,8 @@
   "homepage": "https://github.com/danikaze/ts-lib-boilerplate#readme",
   "devDependencies": {
     "@ef-carbon/tspm": "^2.2.5",
+    "husky": "^4.3.0",
+    "prettier": "^2.1.2",
     "rimraf": "^3.0.2",
     "tslint": "^6.1.3",
     "tslint-consistent-codestyle": "^1.16.0",
