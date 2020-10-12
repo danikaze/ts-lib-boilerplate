@@ -1,0 +1,26 @@
+{
+  "name": "ts-lib-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to to create npm/libraries based on TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danikaze/ts-lib-boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "lib",
+    "boilerplate",
+    "library"
+  ],
+  "author": "danikaze <danikaze@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danikaze/ts-lib-boilerplate/issues"
+  },
+  "homepage": "https://github.com/danikaze/ts-lib-boilerplate#readme"
+}
