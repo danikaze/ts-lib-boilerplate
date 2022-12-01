@@ -9,7 +9,7 @@ A boilerplate to to create npm/libraries based on TypeScript
 ### Ready
 
 - TypeScript support with path aliases
-- [Linting](https://palantir.github.io/tslint/)
+- [Linting](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Git hooks](https://github.com/typicode/husky)
 - Unit testing with [mocha](https://mochajs.org/) and [chai](https://www.chaijs.com/)
